@@ -1,0 +1,6 @@
+#Mongo
+
+DB_PASSWORD="mongodb+srv://newuser:newuser@cluster0.v0i7jzr.mongodb.net/?retryWrites=true&w=majority"
+
+#Secretoken
+TK_DECODE="aertz"
