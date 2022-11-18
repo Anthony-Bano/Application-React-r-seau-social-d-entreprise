@@ -1,0 +1,22 @@
+.avatar {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 2%;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.picsize {
+  border: 2px solid grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.tweetpicsize {
+  width: 250px;
+  object-fit: cover;
+}
+.nompersonne {
+  color: #fd2d01;
+}

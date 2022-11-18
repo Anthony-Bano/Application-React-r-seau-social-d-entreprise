@@ -1,0 +1,28 @@
+.message {
+  display: flex;
+  gap: 15px;
+  width: 800px;
+  border: 2px solid grey;
+  border-radius: 15px 15px 15px 15px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.widthfield {
+  width: 350px;
+}
+.inputheight {
+  height: 50px;
+}
+.retourstyle {
+  left: 2%;
+}
+
+@media (max-width: 680px) {
+  .widthfield {
+    width: auto;
+  }
+  .message {
+    align-items: normal;
+  }
+}

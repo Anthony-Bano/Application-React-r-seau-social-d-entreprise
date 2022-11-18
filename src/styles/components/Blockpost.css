@@ -1,0 +1,97 @@
+.blockpost {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: center;
+  gap: 15%;
+}
+.poststyle {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+  width: 1000px;
+  height: 1%;
+  border: 2px solid #4e5166;
+}
+.description_field {
+  max-width: 500px;
+  padding-left: 25px;
+  padding-right: 25px;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+.filterstyle {
+  top: 55%;
+  left: 10%;
+  padding: 15px;
+  width: 100px;
+  gap: 10px;
+  position: fixed;
+  border: 1px solid #4e5166;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gap {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.bordertop {
+  border-top: 2px solid grey;
+  padding-bottom: 10px;
+}
+.bordertop:first-child {
+  border-top: none;
+}
+
+.tweetblock {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5%;
+
+  padding: 30px;
+  text-align: center;
+}
+
+.person_name {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fd2d01;
+}
+.chargement {
+  position: fixed;
+  left: 50%;
+  top: 65%;
+}
+@media (max-width: 1750px) {
+  .filterstyle {
+    position: relative;
+    left: 0;
+  }
+  .filterpage {
+    display: flex;
+    justify-content: center;
+  }
+  .blockpost {
+    margin-top: 0;
+  }
+  .poststyle {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 680px) {
+  .poststyle {
+    border-radius: 25px;
+  }
+  .description_field {
+    max-width: 200px;
+  }
+  .message {
+    flex-direction: column;
+  }
+}
