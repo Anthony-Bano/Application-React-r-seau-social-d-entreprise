@@ -4,12 +4,11 @@ import Navigation from "../components/Navigation";
 import { Backgroundcolor } from "../script/Backgroundcolor";
 import { useContext } from "react";
 const Login = () => {
-  const { backgroundcolor, setBackgroundcolor } = useContext(Backgroundcolor);
+  const { setBackgroundcolor } = useContext(Backgroundcolor);
 
   setBackgroundcolor("#232735");
   return (
     <div>
-      <p>la couleur est {backgroundcolor}</p>
       <Navigation />
       <Loginoption className="testa" />
     </div>
