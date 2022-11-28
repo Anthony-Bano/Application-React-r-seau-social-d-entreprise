@@ -32,9 +32,9 @@ npm install multer
 
                                     /!\   BEFORE STARTING THE PROJECT, YOU MUST HAVE THE .ENV file for the backend environment.
 
-First of all, make sure to add the ".env" file that has been sent to you in the backend folder.
+First of all, make sure to add the ".env" file that has been sent to you directly in the backend folder.
 
 In the src folder, please run " npm start ", if you got any message's issues, please refer to the "if you got issues starting the frontend, add those commands"
 In the backend folder, please run " nodemon server ", if you have an error saying that the policy on your computer doesn't allow script please run " npm run start " instead.
 
-If you have any trouble running the project, please make sure to contact me on Openclassroom. Thanks!
+If you have any trouble running the project, please make sure to contact me on my mail. Thanks!
